@@ -1,0 +1,17 @@
+<rml>
+	<head>
+		<title>Alchyme</title>
+    <link type="text/rcss" href="main-menu-styles.rcss"/>
+		<link type="text/rcss" href="styles.rcss" />
+    <script src="menu.lua"></script>
+    <title>MainMenu</title>    
+  </head>
+	<body id="body-main-menu">
+    <strong class="title" id="title">Alchyme</strong>
+    <input class="text" id="hostname-in" value="127.0.0.1:25565"/>
+    <input class="text" id="username-in" value="username"/>
+    <input class="text" id="login-key-in" value="login key"/>
+		<button onclick="Test()" class="button" id="connect"></button>
+	</body>
+</rml>
+
