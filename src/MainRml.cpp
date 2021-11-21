@@ -127,7 +127,7 @@ int main(int argc, char** argv)
 	//	Rml::LoadFontFace("assets/" + face.filename, face.fallback_face);
 	//}
 	
-	Rml::LoadFontFace("assets/fonts/OpenSans-Regular.ttf", face.fallback_face);
+	Rml::LoadFontFace("assets/fonts/OpenSans-Regular.ttf", false);
 
 	Rml::Context* Context = Rml::CreateContext("default",
 		Rml::Vector2i(window_width, window_height));
